@@ -39,6 +39,15 @@ a {
   color: inherit;
 }
 
+.main-header {
+  border: 0.3rem;
+  border-style: none none inset none;
+}
+
+.main-header__image {
+  padding: 0.2rem;
+}
+
 .over-tittle {
   color: var(--primary-color);
   font-weight: bolder;
@@ -74,14 +83,14 @@ a {
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
-  color: red;
 }
 
 .main-content__image {
   border-radius: 1.5rem;
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   position: relative;
+  max-height: 300px;
 }
 
 .main-content__image:hover {
@@ -89,9 +98,15 @@ a {
 }
 
 .main-content__tittle {
-  font-weight: bolder;
+  text-align: center;
+  color: var(--primary-color);
 }
 
-.main-content__secondary-tittle {
-  font-size: 1rem;
+.main-content__tittle__primary {
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+.main-content__tittle__secondary {
+  font-size: 0.8rem;
 }
