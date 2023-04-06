@@ -65,5 +65,13 @@ a {
 .button:hover {
   background-color: white;
   color: var(--primary-color);
-  border: 0.1rem solid var(--primary-color);;
+  border: 0.1rem
+}
+  
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
 }
