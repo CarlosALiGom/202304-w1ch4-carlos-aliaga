@@ -61,3 +61,9 @@ a {
   gap: 1rem;
   margin-top: 1rem;
 }
+
+.button:hover {
+  background-color: white;
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);;
+}
