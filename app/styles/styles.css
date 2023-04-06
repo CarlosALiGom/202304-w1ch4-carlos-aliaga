@@ -65,7 +65,7 @@ a {
 .button:hover {
   background-color: white;
   color: var(--primary-color);
-  border: 0.1rem
+  border: 0.1rem solid var(--primary-color);
 }
   
 .main-content {
@@ -74,4 +74,8 @@ a {
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.main-content__image {
+  border-radius: 1.5rem;
 }
