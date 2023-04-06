@@ -74,8 +74,24 @@ a {
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+  color: red;
 }
 
 .main-content__image {
   border-radius: 1.5rem;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  position: relative;
+}
+
+.main-content__image:hover {
+  opacity: 0.8;
+}
+
+.main-content__tittle {
+  font-weight: bolder;
+}
+
+.main-content__secondary-tittle {
+  font-size: 1rem;
 }
