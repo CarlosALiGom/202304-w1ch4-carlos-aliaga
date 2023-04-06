@@ -41,3 +41,12 @@ a {
 .over-tittle {
   color: var(--primary-color);
 }
+
+.button {
+  background-color: var(--primary-color);
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 0 15px 25px 25px;
+  border-style: none;
+}
